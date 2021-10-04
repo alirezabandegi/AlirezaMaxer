@@ -1,0 +1,162 @@
+*{
+    margin:0;
+    padding:0; 
+}
+html, body{
+    margin:0;
+    padding:0;
+}
+.clearfix {
+    overflow: auto;
+  }
+#mainHeader {
+    background:rgb(36, 35, 35); 
+    position:fixed;
+    top: 0;
+    left:0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0px 11px 11px #D4D3D3;
+  }
+#mainHeader nav span{
+     display: inline-block;
+  }
+
+.hLogoText{
+    margin-left:50px;
+  }
+.hLogoText img{
+    width: 50px;
+    margin:3px;
+  }
+.aH{
+    position: absolute;
+    top: 21px;
+    left: 115px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+.hLinks{
+    float: right;
+  }
+.hLinks ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+.hLinks ul li{
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px 0px;
+  }
+
+  .hLinks ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color:white;
+  }
+.hLogIn a{
+    display: inline-block;
+    padding: 10px 30px;
+    padding-right: 10px;
+    margin: 10px 0px;
+    background-image: url(../image/logIn/logIn.PNG);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px 20px;
+    text-decoration: none;
+    color: #fc4f3f;
+    font-size: 14px;
+}
+.hSosialLinks{
+    float: right;
+}
+.hSosialLinks a{
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 0px 4px;
+    margin-top: 10px;
+    background-size: 23px 23px;
+}
+.hSosialLinks a:last-child{
+    margin-right: 25px;
+}
+.hSosialLinks a img{
+    width:16px;
+}
+.red{
+    color:#fc4f3f;
+}
+.howerRed:hover{
+    color: #fc4f3f;
+    transition: color .5s;
+}
+.sectionMain{
+  background:rgb(36, 35, 35);
+}
+.sectionMain div{
+  background:rgb(36, 35, 35);
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  padding: 4% 0;
+}
+.sectionMain div h1{
+  color: white;
+  letter-spacing: 0.4em;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 4%;
+  font-weight: bold;
+}
+.sectionMain div p{
+  line-height: 1.7em;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+.signup{
+  margin-top: 8%;
+}
+.sectionMain div a{
+  line-height: 1.7em;
+  font-size: 16px;
+  padding-bottom: 1%;
+  color: white;
+  font-weight: bold;
+}
+.emailMailto{
+  text-decoration: none;
+}
+.sosiaclLinksS{
+  display: block;
+  text-decoration: none;
+}
+footer{
+  background: #fc4f3f;
+  padding: 0.7% 0;
+  text-align: center;
+}
+footer p{
+  font-size:13px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

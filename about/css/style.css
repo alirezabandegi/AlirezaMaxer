@@ -1,0 +1,212 @@
+*{
+    margin:0;
+    padding:0; 
+}
+html, body{
+    margin:0;
+    padding:0;
+}
+.clearfix {
+    overflow: auto;
+  }
+main{
+  animation-duration: 2s;
+  animation-name: slidein;
+}
+#mainHeader {
+    background:rgb(36, 35, 35); 
+    position:fixed;
+    top: 0;
+    left:0;
+    z-index: 1000;
+    width: 100%;
+    box-shadow: 0px 11px 11px #D4D3D3;
+  }
+#mainHeader nav span{
+     display: inline-block;
+  }
+
+.hLogoText{
+    margin-left:50px;
+  }
+.hLogoText img{
+    width: 50px;
+    margin:3px;
+  }
+.aH{
+    position: absolute;
+    top: 21px;
+    left: 115px;
+    font-size: 19px;
+    font-weight: bold;
+    color: white;
+    text-decoration: none;
+  }
+.hLinks{
+    float: right;
+  }
+.hLinks ul{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+  }
+.hLinks ul li{
+    display: inline-block;
+    padding: 5px 15px;
+    margin: 5px 0px;
+  }
+
+  .hLinks ul li a {
+    font-size: 14px;
+    text-decoration: none;
+    color:white;
+  }
+.hLogIn a{
+    display: inline-block;
+    padding: 10px 30px;
+    padding-right: 10px;
+    margin: 10px 0px;
+    background-image: url(../image/logIn/logIn.PNG);
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: 20px 20px;
+    text-decoration: none;
+    color: #fc4f3f;
+    font-size: 14px;
+}
+.hSosialLinks{
+    float: right;
+}
+.hSosialLinks a{
+    display: inline-block;
+    padding: 10px 0px;
+    margin: 0px 4px;
+    margin-top: 10px;
+    background-size: 23px 23px;
+}
+.hSosialLinks a:last-child{
+    margin-right: 25px;
+}
+.hSosialLinks a img{
+    width:16px;
+}
+.red{
+    color:#fc4f3f;
+}
+.howerRed:hover{
+    color: #fc4f3f;
+    transition: color .5s;
+}
+@keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+main{
+  margin-top: 9%;
+}
+.main1{
+  text-align: center;
+  margin-bottom: 5%;
+}
+main div h2{
+  letter-spacing: 0.4em;
+  font-size: 28px;
+  margin-bottom: 1%;
+}
+main div h1{
+  font-size: 72px;
+  margin-bottom: 5%;
+}
+main div img{
+  max-width: 65%;
+}
+.main2{
+  width: 50%;
+  margin: 0 auto;
+  text-align: center;
+  
+}
+.main2 div{
+  width: 40%;
+  margin: 0 auto;
+  float: left;
+  text-align: left;
+  padding: 0 5%;
+  margin-bottom: 9%;
+}
+.main2 div p{
+  line-height: 1.7em;
+  font-size: 16px;
+}
+.main2d1 p{
+  margin-bottom: 3%;
+}
+section{
+  background:rgb(36, 35, 35);
+}
+section div{
+  background:rgb(36, 35, 35);
+  width: 33.3%;
+  float: left;
+  text-align: center;
+  padding: 4% 0;
+}
+section div h1{
+  color: white;
+  letter-spacing: 0.4em;
+  font-size: 28px;
+  font-weight: bold;
+  margin-bottom: 4%;
+  font-weight: bold;
+}
+section div p{
+  line-height: 1.7em;
+  font-size: 16px;
+  color: white;
+  font-weight: bold;
+}
+section div a{
+  line-height: 1.7em;
+  font-size: 16px;
+  padding-bottom: 1%;
+  color: white;
+  font-weight: bold;
+}
+.emailMailto{
+  text-decoration: none;
+}
+.sosiaclLinksS{
+  display: block;
+  text-decoration: none;
+}
+footer{
+  background: #fc4f3f;
+  padding: 0.7% 0;
+  text-align: center;
+}
+footer p{
+  font-size:13px
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

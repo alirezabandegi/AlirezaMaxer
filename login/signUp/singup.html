@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+
+        <!--title tag-->
+        <title>Sing Up</title>
+
+        <!--meta tags-->
+        <meta charset="utf-8">
+        <meta name="description" content="This is Alireza Maxer's website for business.">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="keywords" content="">
+        <meta name="author" content="Alireza Bandegi">
+
+        <!--link tags-->
+        <link rel="stylesheet" href="fonts/material-icon/css/material-design-iconic-font.min.css">
+        <link rel="icon" type="image/png" href="../image/logo/logoNoneTextSmall.png"/>
+        <link rel="stylesheet" type="text/css" href="css/style.css">
+        <link rel="stylesheet" href="css/style2.css">
+        <style>
+            @keyframes slidein {
+  from {
+    opacity: 0;
+  }
+
+  to {
+    opacity: 1;
+  }
+}
+.signup{
+    animation-duration: 2s;
+  animation-name: slidein;
+}
+        </style>
+    </head>
+    <body>
+        <header id="mainHeader" class="clearfix">
+            <nav>
+                <span class="hLogoText">
+                    <img src="image/logo/logoNoneTextLarg.png" alt="Logo">
+                </span>
+                <a class="aH" href="https://www.instagram.com/alirezamaxery/" target="_blank">Alireza Maxer</a>
+                
+
+                <span class="hSosialLinks">
+                    <a href="https://www.facebook.com/alireza.bandegi.77" target="_blank"><img src="image/sosical/facebook.png" alt="Facebook"></a>
+                    <a href="https://www.instagram.com/alirezamaxery/" target="_blank"><img src="image/sosical/instagram.png" alt="Instagram"></a>
+                    <a href="https://www.youtube.com/channel/UCe_upvBWZI_IzMt-DtbaArQ" target="_blank"><img src="image/sosical/youtube.png" alt="Youtube"></a>
+                 </span>
+
+                <span class="hLinks">
+                    <span>
+                        <ul>
+                            <li><a href="/index.html" class="howerRed">Home</a></li>
+                            <li><a href="/blog/blog.html" class="howerRed">Blog</a></li>
+                            <li><a href="/news/news.html" class="howerRed">News</a></li>
+                            <li><a href="/about/about.html" class="howerRed">About</a></li>
+                            <li><a href="/memes/memes.html" class="howerRed">Memes</a></li>
+                            <li><a href="/contact/contact.html" class="howerRed">Contact</a></li>
+                        </ul>
+                    </span>
+                    <span class="hLogIn">
+                        <a href="../login.html" target="_self">Log In</a>
+                    </span>
+                </span>
+
+            </nav>
+        </header>
+
+        <section class="signup">
+            <div class="container">
+                <div class="signup-content">
+                    <div class="signup-form">
+                        <h2 class="form-title">Sign up</h2>
+                        <form method="POST" class="register-form" id="register-form">
+                            <div class="form-group">
+                                <label for="name"><i class="zmdi zmdi-account material-icons-name"></i></label>
+                                <input type="text" name="name" id="name" placeholder="Your Name"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="email"><i class="zmdi zmdi-email"></i></label>
+                                <input type="email" name="email" id="email" placeholder="Your Email"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="pass"><i class="zmdi zmdi-lock"></i></label>
+                                <input type="password" name="pass" id="pass" placeholder="Password"/>
+                            </div>
+                            <div class="form-group">
+                                <label for="re-pass"><i class="zmdi zmdi-lock-outline"></i></label>
+                                <input type="password" name="re_pass" id="re_pass" placeholder="Repeat your password"/>
+                            </div>
+                            <div class="form-group">
+                                <input type="checkbox" name="agree-term" id="agree-term" class="agree-term" />
+                                <label for="agree-term" class="label-agree-term"><span><span></span></span>I agree all statements in  <a href="#" class="term-service">Terms of service</a></label>
+                            </div>
+                            <div class="form-group form-button">
+                                <input type="submit" name="signup" id="signup" class="form-submit" value="Register" style="background-color:#fc4f3f;"/>
+                            </div>
+                        </form>
+                    </div>
+                    <div class="signup-image">
+                        <figure><img src="images/logoNoneTextLarg.png" alt="sing up image"></figure>
+                        <a href="../login.html" class="signup-image-link">I am already member</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="clearfix sectionMain">
+
+            <div>
+                <h1>Address</h1>
+                <p>500 Terry Francois Street</p>
+                <p>San Francisco, CA 94158</p>
+            </div>
+            <div>
+                <h1>Contact</h1>
+                <a href="mailto:alirezamaxergame@gmail.com" class="emailMailto">Email: AlirezaMaxergame@gmail.com</a>
+                <p>Tel: 123-456-7890</p>
+            </div>
+
+            <div>
+                <h1>Follow us</h1>
+                <a href="https://www.facebook.com/alireza.bandegi.77" target="_blank" class="sosiaclLinksS">Facebook</a>
+                <a href="https://www.instagram.com/alirezamaxery/" target="_blank" class="sosiaclLinksS">Instagram</a>
+                <a href="https://www.youtube.com/channel/UCe_upvBWZI_IzMt-DtbaArQ" target="_blank" class="sosiaclLinksS">Youtube</a>
+            </div>
+
+        </section>
+
+        <footer>
+            <p style="color: black;">&copy;2021 by Alireza Maxer</p>
+        </footer>
+    </body>
+</html>
